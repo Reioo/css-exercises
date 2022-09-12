@@ -1,0 +1,12 @@
+.both *{
+    font-size: 28px;
+    font-family: Arial, Helvetica, sans-serif, 'Times New Roman', Times, serif;
+}
+.both .first {
+    color: white;
+    background-color: black;
+}
+.second {
+    color: black;
+    background-color: yellow;
+}

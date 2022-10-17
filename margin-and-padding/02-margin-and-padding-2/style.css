@@ -1,27 +1,53 @@
+
+/* * {
+  border: 2px solid red;  
+} */
+
 body {
   background: #eee;
-  font-family: sans-serif;
+  font-family: sans-serif;  
 }
 
+/* .surrounding {
+  width: 700px;
+  margin: 0 auto;
+
+} */
 .card {
-  width: 400px;
+  width: 600px;
   background: #fff;
-  margin: 16px auto;
+  border: 15px solid white;
+  margin: 30px auto;
 }
 
 .title {
   background: #e3f4ff;
+  margin-top: 0px;
+  padding: 10px;
 }
 
 .content {
   background: #e3f4ff;
+  border-bottom: 15px solid white;
+  font-size: 25px;
+  font-weight: 500;
+  padding: 10px;
 }
 
 .button-container {
   background: #e3f4ff;
+  font-size: 25px;
+  font-weight: 500;
+  width: 600px;
+  text-align: center;
+  padding: 10px;
 }
 
 button {
   background: white;
   border: 1px solid #eee;
+  font-size: 25px;
+  margin: 0 auto;
+  display: block;
+  padding: 10px 40px 10px;
 }
